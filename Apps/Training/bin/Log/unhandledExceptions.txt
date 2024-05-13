@@ -1,0 +1,74 @@
+2023-04-28T10:48:43.5256	This BackgroundWorker states that it doesn't support cancellation. Modify WorkerSupportsCancellation to state that it does support cancellation.	   at System.ComponentModel.BackgroundWorker.CancelAsync()
+   at bdt.Libs.VisuBase.Messages.Controls.MessageConfigurator.BDTMessageConfigurator.btnRefresh_Click(Object sender, EventArgs e) in D:\Repositories\bdtronicRepository_TC3\Visu\BDT\Libs\VisuBase\Messages\Controls\MessageConfigurator\BDTMessageConfigurator.cs:line 535
+   at System.Windows.Forms.Control.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Button.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at bdt.Apps.B5xxx.Program.Main() in D:\Repositories\bdtronicRepository_TC3\Visu\BDT\Apps\B5xxx\B5xxx\Program.cs:line 37
+2023-05-03T09:22:27.4104	Top-level control cannot be added to a control.	   at System.Windows.Forms.Control.ControlCollection.Add(Control value)
+   at System.Windows.Forms.Form.ControlCollection.Add(Control value)
+   at bdt.Libs.VisuBase.Messages.Controls.FormMessage.btnEdit_Click(Object sender, EventArgs e) in D:\Repositories\bdtronicRepository_TC3\Visu\BDT\Libs\VisuBase\Messages\Controls\FormMessage.cs:line 109
+   at System.Windows.Forms.Control.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Button.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   at bdt.Libs.VisuBase.Messages.Controls.BDTActiveMessages.bdtDataGridView1_CellDoubleClick(Object sender, DataGridViewCellEventArgs e) in D:\Repositories\bdtronicRepository_TC3\Visu\BDT\Libs\VisuBase\Messages\Controls\BDTActiveMessages.cs:line 220
+   at System.Windows.Forms.DataGridView.OnCellDoubleClick(DataGridViewCellEventArgs e)
+   at System.Windows.Forms.DataGridView.OnDoubleClick(EventArgs e)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at bdt.Apps.B5xxx.Program.Main() in D:\Repositories\bdtronicRepository_TC3\Visu\BDT\Apps\B5xxx\B5xxx\Program.cs:line 37
+2023-05-03T15:06:15.9842	Collection was modified; enumeration operation may not execute.	   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   at bdt.Libs.VisuBase.Messages.Model.CustomMessages.MachineSolution.DeleteFiles() in D:\Repositories\bdtronicRepository_TC3\Visu\BDT\Libs\VisuBase\Messages\Model\CustomMessages\MachineSolution.cs:line 60
+   at bdt.Libs.VisuBase.Messages.CustomMessageManager.DeleteSolution(MachineSolution solution) in D:\Repositories\bdtronicRepository_TC3\Visu\BDT\Libs\VisuBase\Messages\CustomMessageManager.cs:line 165
+   at bdt.Libs.VisuBase.Messages.Controls.MessageSolutions.pbtnDeleteSolution_Click(Object sender, EventArgs e) in D:\Repositories\bdtronicRepository_TC3\Visu\BDT\Libs\VisuBase\Messages\Controls\MessageSolutions.cs:line 118
+   at System.Windows.Forms.Control.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Button.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   at bdt.Libs.VisuBase.Messages.Controls.BDTActiveMessages.bdtDataGridView1_CellDoubleClick(Object sender, DataGridViewCellEventArgs e) in D:\Repositories\bdtronicRepository_TC3\Visu\BDT\Libs\VisuBase\Messages\Controls\BDTActiveMessages.cs:line 220
+   at System.Windows.Forms.DataGridView.OnCellDoubleClick(DataGridViewCellEventArgs e)
+   at System.Windows.Forms.DataGridView.OnDoubleClick(EventArgs e)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at bdt.Apps.B5xxx.Program.Main() in D:\Repositories\bdtronicRepository_TC3\Visu\BDT\Apps\B5xxx\B5xxx\Program.cs:line 37
+2023-05-09T10:17:37.3189	Der Objektverweis wurde nicht auf eine Objektinstanz festgelegt.	   bei bdt.Apps.B5xxx.FrmMain.InitApplication() in D:\Repositories\bdtronicRepository_TC3\Visu\BDT\Apps\B5xxx\B5xxx\FrmMain.cs:Zeile 93.
+   bei bdt.Apps.B5xxx.FrmMain..ctor() in D:\Repositories\bdtronicRepository_TC3\Visu\BDT\Apps\B5xxx\B5xxx\FrmMain.cs:Zeile 22.
+   bei bdt.Apps.B5xxx.Program.Main() in D:\Repositories\bdtronicRepository_TC3\Visu\BDT\Apps\B5xxx\B5xxx\Program.cs:Zeile 37.
+2023-05-09T10:23:39.0080	Der Objektverweis wurde nicht auf eine Objektinstanz festgelegt.	   bei bdt.Apps.B5xxx.FrmMain.InitApplication() in D:\Repositories\bdtronicRepository_TC3\Visu\BDT\Apps\B5xxx\B5xxx\FrmMain.cs:Zeile 93.
+   bei bdt.Apps.B5xxx.FrmMain..ctor() in D:\Repositories\bdtronicRepository_TC3\Visu\BDT\Apps\B5xxx\B5xxx\FrmMain.cs:Zeile 22.
+   bei bdt.Apps.B5xxx.Program.Main() in D:\Repositories\bdtronicRepository_TC3\Visu\BDT\Apps\B5xxx\B5xxx\Program.cs:Zeile 37.

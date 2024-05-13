@@ -1,0 +1,13 @@
+D:\seitz\Desktop\Training\TC3\Apps\Training\bin\start.ini
+D:\seitz\Desktop\Training\TC3\Apps\Training\bin\Training.exe
+D:\seitz\Desktop\Training\TC3\Apps\Training\bin\Training.pdb
+D:\seitz\Desktop\Training\TC3\Apps\Training\Training\obj\Debug\bdt.Apps.Training.csproj.AssemblyReference.cache
+D:\seitz\Desktop\Training\TC3\Apps\Training\Training\obj\Debug\bdt.Apps.B5xxx.FrmMain.resources
+D:\seitz\Desktop\Training\TC3\Apps\Training\Training\obj\Debug\bdt.Apps.B5xxx.Properties.Resources.resources
+D:\seitz\Desktop\Training\TC3\Apps\Training\Training\obj\Debug\bdt.Apps.B5xxx.UcCarTraffcLight.resources
+D:\seitz\Desktop\Training\TC3\Apps\Training\Training\obj\Debug\bdt.Apps.B5xxx.UcPedestrianTraffcLight.resources
+D:\seitz\Desktop\Training\TC3\Apps\Training\Training\obj\Debug\bdt.Apps.Training.csproj.GenerateResource.cache
+D:\seitz\Desktop\Training\TC3\Apps\Training\Training\obj\Debug\bdt.Apps.Training.csproj.CoreCompileInputs.cache
+D:\seitz\Desktop\Training\TC3\Apps\Training\Training\obj\Debug\bdt.Apps.Training.csproj.CopyComplete
+D:\seitz\Desktop\Training\TC3\Apps\Training\Training\obj\Debug\Training.exe
+D:\seitz\Desktop\Training\TC3\Apps\Training\Training\obj\Debug\Training.pdb

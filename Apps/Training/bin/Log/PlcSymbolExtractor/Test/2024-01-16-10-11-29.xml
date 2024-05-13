@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Symbol xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="test">
+  <SubSymbols>
+    <Symbol Name="test" Value="-8120" />
+    <Symbol Name="timetamp" Value="16.01.2024 10:11:29" />
+  </SubSymbols>
+</Symbol>
